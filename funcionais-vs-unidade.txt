@@ -1,0 +1,12 @@
+Teste de unidade:
+Testa os componentes de software individuais em relação a erros.
+Conhecimento do programa é necessário para criar esse tipo de teste
+Verifica se o software tem o comportamento esperado
+Testador tem a perspectiva do desenvolvedor.
+
+Teste Funcional:
+É realizado sem qualquer conhecimento do funcionamento interno do sistema.
+O teste é feito seguindo requisitos estabelecidos, fornecendo entradas diferentes e 
+testando as saídas geradas
+Conhecido como teste de caixa fechada ou caixa preta
+Testador tem a perspectiva do usuário.
