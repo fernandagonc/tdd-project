@@ -1,0 +1,10 @@
+O processo de TDD começa pela escrita dos testes funcionais;
+Em seguida rodamos o teste e, caso ele falhe partimos para a escrita dos testes unitários.
+Rodamos o teste escrito e, caso o teste unitário falhe, escrevemos linhas de código até que ele passe;
+Quando o teste unitário passa, verificamos se a aplicação precisa de refatoração; Se sim, refatoramos o código e rodamos novamente os testes, para mantê-los passando.
+Finalizando o ciclo de escrever testes unitários, rodamos o teste funcional novamente; caso ele e caso ele continue falhando, seguimos no looping de testes unitários até ter código suficiente para os testes funcionais passarem;
+Quando o teste funcional passa, observamos se a aplicação precisa de refatoração; caso não precise escrevemos um novo teste funcional, voltando ao ciclo já descrito;
+Caso não precise, voltamos ao ciclo de escrita de testes unitários para o novo teste funcional.
+Ou seja, tudo se resume a um ciclo de:
+Escrever teste -> rodar teste -> teste falha -> escrever código -> rodar teste -> teste passa -|
+     ^-----------------------------------------------------------------------------------------
