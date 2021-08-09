@@ -1,3 +1,4 @@
+from functional_tests.base import FunctionalTest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
