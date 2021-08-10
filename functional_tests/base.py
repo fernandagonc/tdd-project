@@ -7,8 +7,8 @@ from django.test import LiveServerTestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
 MAX_WAIT = 5
-
 class FunctionalTest(StaticLiveServerTestCase):
+
     def setUp(self):
         self.browser = webdriver.Firefox()
 
@@ -27,7 +27,7 @@ class FunctionalTest(StaticLiveServerTestCase):
                 if time.time() - start_time > MAX_WAIT:  
                     raise e  
                 time.sleep(0.5)
-
+                
     def wait_for(self, fn):
         start_time = time.time()
         while True:

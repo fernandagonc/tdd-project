@@ -1,14 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time
-from django.test import LiveServerTestCase
-from selenium.common.exceptions import WebDriverException
-from django.test import LiveServerTestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
 MAX_WAIT = 5
 
 class NewVisitorTest(StaticLiveServerTestCase):
+    
+    
     def test_can_start_a_list_for_one_user(self): 
     
         self.browser.get(self.live_server_url)
