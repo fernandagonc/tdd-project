@@ -1,6 +1,5 @@
-#!/bin/sh
-'''exec' "/home/fernanda/Documentos/2021-1/teste soft/tdd-project/tdd-project/virtualenv/bin/python3.7" "$0" "$@"
-' '''
+#!/home/fernanda/Documentos/2021-1/testesoft/tdd-project/tdd-project/virtualenv/bin/python3.7
+
 # -*- coding: utf-8 -*-
 import re
 import sys

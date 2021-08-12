@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/fernanda/Documentos/2021-1/teste soft/tdd-project/tdd-project/virtualenv"
+set -gx VIRTUAL_ENV "/home/fernanda/Documentos/2021-1/testesoft/tdd-project/tdd-project/virtualenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
